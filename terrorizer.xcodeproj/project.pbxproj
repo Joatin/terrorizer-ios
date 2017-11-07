@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB80A6211FB1D9D000E2544E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80A6201FB1D9D000E2544E /* AppDelegate.swift */; };
+		DB80A6231FB1D9D000E2544E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80A6221FB1D9D000E2544E /* FirstViewController.swift */; };
+		DB80A6251FB1D9D000E2544E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80A6241FB1D9D000E2544E /* SecondViewController.swift */; };
+		DB80A6281FB1D9D000E2544E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB80A6261FB1D9D000E2544E /* Main.storyboard */; };
+		DB80A62A1FB1D9D000E2544E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB80A6291FB1D9D000E2544E /* Assets.xcassets */; };
+		DB80A62D1FB1D9D000E2544E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB80A62B1FB1D9D000E2544E /* LaunchScreen.storyboard */; };
+		DB80A6381FB1D9D000E2544E /* terrorizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80A6371FB1D9D000E2544E /* terrorizerTests.swift */; };
+		DB80A6431FB1D9D000E2544E /* terrorizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80A6421FB1D9D000E2544E /* terrorizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB80A6341FB1D9D000E2544E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB80A6151FB1D9D000E2544E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB80A61C1FB1D9D000E2544E;
+			remoteInfo = terrorizer;
+		};
+		DB80A63F1FB1D9D000E2544E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB80A6151FB1D9D000E2544E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB80A61C1FB1D9D000E2544E;
+			remoteInfo = terrorizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB80A61D1FB1D9D000E2544E /* terrorizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = terrorizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB80A6201FB1D9D000E2544E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB80A6221FB1D9D000E2544E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DB80A6241FB1D9D000E2544E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DB80A6271FB1D9D000E2544E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB80A6291FB1D9D000E2544E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB80A62C1FB1D9D000E2544E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB80A62E1FB1D9D000E2544E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB80A6331FB1D9D000E2544E /* terrorizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = terrorizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB80A6371FB1D9D000E2544E /* terrorizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terrorizerTests.swift; sourceTree = "<group>"; };
+		DB80A6391FB1D9D000E2544E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB80A63E1FB1D9D000E2544E /* terrorizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = terrorizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB80A6421FB1D9D000E2544E /* terrorizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terrorizerUITests.swift; sourceTree = "<group>"; };
+		DB80A6441FB1D9D000E2544E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB80A61A1FB1D9D000E2544E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB80A6301FB1D9D000E2544E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB80A63B1FB1D9D000E2544E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB80A6141FB1D9D000E2544E = {
+			isa = PBXGroup;
+			children = (
+				DB80A61F1FB1D9D000E2544E /* terrorizer */,
+				DB80A6361FB1D9D000E2544E /* terrorizerTests */,
+				DB80A6411FB1D9D000E2544E /* terrorizerUITests */,
+				DB80A61E1FB1D9D000E2544E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB80A61E1FB1D9D000E2544E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB80A61D1FB1D9D000E2544E /* terrorizer.app */,
+				DB80A6331FB1D9D000E2544E /* terrorizerTests.xctest */,
+				DB80A63E1FB1D9D000E2544E /* terrorizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB80A61F1FB1D9D000E2544E /* terrorizer */ = {
+			isa = PBXGroup;
+			children = (
+				DB80A6201FB1D9D000E2544E /* AppDelegate.swift */,
+				DB80A6221FB1D9D000E2544E /* FirstViewController.swift */,
+				DB80A6241FB1D9D000E2544E /* SecondViewController.swift */,
+				DB80A6261FB1D9D000E2544E /* Main.storyboard */,
+				DB80A6291FB1D9D000E2544E /* Assets.xcassets */,
+				DB80A62B1FB1D9D000E2544E /* LaunchScreen.storyboard */,
+				DB80A62E1FB1D9D000E2544E /* Info.plist */,
+			);
+			path = terrorizer;
+			sourceTree = "<group>";
+		};
+		DB80A6361FB1D9D000E2544E /* terrorizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB80A6371FB1D9D000E2544E /* terrorizerTests.swift */,
+				DB80A6391FB1D9D000E2544E /* Info.plist */,
+			);
+			path = terrorizerTests;
+			sourceTree = "<group>";
+		};
+		DB80A6411FB1D9D000E2544E /* terrorizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB80A6421FB1D9D000E2544E /* terrorizerUITests.swift */,
+				DB80A6441FB1D9D000E2544E /* Info.plist */,
+			);
+			path = terrorizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB80A61C1FB1D9D000E2544E /* terrorizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB80A6471FB1D9D000E2544E /* Build configuration list for PBXNativeTarget "terrorizer" */;
+			buildPhases = (
+				DB80A6191FB1D9D000E2544E /* Sources */,
+				DB80A61A1FB1D9D000E2544E /* Frameworks */,
+				DB80A61B1FB1D9D000E2544E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = terrorizer;
+			productName = terrorizer;
+			productReference = DB80A61D1FB1D9D000E2544E /* terrorizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB80A6321FB1D9D000E2544E /* terrorizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB80A64A1FB1D9D000E2544E /* Build configuration list for PBXNativeTarget "terrorizerTests" */;
+			buildPhases = (
+				DB80A62F1FB1D9D000E2544E /* Sources */,
+				DB80A6301FB1D9D000E2544E /* Frameworks */,
+				DB80A6311FB1D9D000E2544E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB80A6351FB1D9D000E2544E /* PBXTargetDependency */,
+			);
+			name = terrorizerTests;
+			productName = terrorizerTests;
+			productReference = DB80A6331FB1D9D000E2544E /* terrorizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB80A63D1FB1D9D000E2544E /* terrorizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB80A64D1FB1D9D000E2544E /* Build configuration list for PBXNativeTarget "terrorizerUITests" */;
+			buildPhases = (
+				DB80A63A1FB1D9D000E2544E /* Sources */,
+				DB80A63B1FB1D9D000E2544E /* Frameworks */,
+				DB80A63C1FB1D9D000E2544E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB80A6401FB1D9D000E2544E /* PBXTargetDependency */,
+			);
+			name = terrorizerUITests;
+			productName = terrorizerUITests;
+			productReference = DB80A63E1FB1D9D000E2544E /* terrorizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB80A6151FB1D9D000E2544E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Joatin Granlund";
+				TargetAttributes = {
+					DB80A61C1FB1D9D000E2544E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DB80A6321FB1D9D000E2544E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB80A61C1FB1D9D000E2544E;
+					};
+					DB80A63D1FB1D9D000E2544E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB80A61C1FB1D9D000E2544E;
+					};
+				};
+			};
+			buildConfigurationList = DB80A6181FB1D9D000E2544E /* Build configuration list for PBXProject "terrorizer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB80A6141FB1D9D000E2544E;
+			productRefGroup = DB80A61E1FB1D9D000E2544E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB80A61C1FB1D9D000E2544E /* terrorizer */,
+				DB80A6321FB1D9D000E2544E /* terrorizerTests */,
+				DB80A63D1FB1D9D000E2544E /* terrorizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB80A61B1FB1D9D000E2544E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB80A62D1FB1D9D000E2544E /* LaunchScreen.storyboard in Resources */,
+				DB80A62A1FB1D9D000E2544E /* Assets.xcassets in Resources */,
+				DB80A6281FB1D9D000E2544E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB80A6311FB1D9D000E2544E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB80A63C1FB1D9D000E2544E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB80A6191FB1D9D000E2544E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB80A6251FB1D9D000E2544E /* SecondViewController.swift in Sources */,
+				DB80A6211FB1D9D000E2544E /* AppDelegate.swift in Sources */,
+				DB80A6231FB1D9D000E2544E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB80A62F1FB1D9D000E2544E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB80A6381FB1D9D000E2544E /* terrorizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB80A63A1FB1D9D000E2544E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB80A6431FB1D9D000E2544E /* terrorizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB80A6351FB1D9D000E2544E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB80A61C1FB1D9D000E2544E /* terrorizer */;
+			targetProxy = DB80A6341FB1D9D000E2544E /* PBXContainerItemProxy */;
+		};
+		DB80A6401FB1D9D000E2544E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB80A61C1FB1D9D000E2544E /* terrorizer */;
+			targetProxy = DB80A63F1FB1D9D000E2544E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB80A6261FB1D9D000E2544E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB80A6271FB1D9D000E2544E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB80A62B1FB1D9D000E2544E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB80A62C1FB1D9D000E2544E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB80A6451FB1D9D000E2544E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB80A6461FB1D9D000E2544E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB80A6481FB1D9D000E2544E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = terrorizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joatin-Granlund.terrorizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB80A6491FB1D9D000E2544E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = terrorizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joatin-Granlund.terrorizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB80A64B1FB1D9D000E2544E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = terrorizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joatin-Granlund.terrorizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/terrorizer.app/terrorizer";
+			};
+			name = Debug;
+		};
+		DB80A64C1FB1D9D000E2544E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = terrorizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joatin-Granlund.terrorizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/terrorizer.app/terrorizer";
+			};
+			name = Release;
+		};
+		DB80A64E1FB1D9D000E2544E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = terrorizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joatin-Granlund.terrorizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = terrorizer;
+			};
+			name = Debug;
+		};
+		DB80A64F1FB1D9D000E2544E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = terrorizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joatin-Granlund.terrorizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = terrorizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB80A6181FB1D9D000E2544E /* Build configuration list for PBXProject "terrorizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB80A6451FB1D9D000E2544E /* Debug */,
+				DB80A6461FB1D9D000E2544E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB80A6471FB1D9D000E2544E /* Build configuration list for PBXNativeTarget "terrorizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB80A6481FB1D9D000E2544E /* Debug */,
+				DB80A6491FB1D9D000E2544E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB80A64A1FB1D9D000E2544E /* Build configuration list for PBXNativeTarget "terrorizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB80A64B1FB1D9D000E2544E /* Debug */,
+				DB80A64C1FB1D9D000E2544E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB80A64D1FB1D9D000E2544E /* Build configuration list for PBXNativeTarget "terrorizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB80A64E1FB1D9D000E2544E /* Debug */,
+				DB80A64F1FB1D9D000E2544E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB80A6151FB1D9D000E2544E /* Project object */;
+}
